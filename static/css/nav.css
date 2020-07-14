@@ -16,7 +16,7 @@ body {
 
 .nav {
     width: 100%;
-    height: 65px;
+    height: 135px;
     position: fixed;
     z-index: 500;
     line-height: 65px;
@@ -60,7 +60,7 @@ body {
     width: auto;
     height: 65px;
     padding: 0;
-    padding-right: 3rem;
+    padding-right: 1.2rem;
     
 }
 
@@ -68,7 +68,7 @@ body {
     text-decoration: none;
     color: #fff;
     line-height: 65px;
-    font-size: 2.4rem;
+    font-size: 2.0rem;
 }
 
 .nav div.main_list ul li a:hover {
@@ -84,7 +84,7 @@ body {
     display: block;
     
     
-    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://images.wallpaperscraft.ru/image/feofaniya_kiev_sobor_otrazhenie_prud_101104_1920x1080.jpg);
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://i.ibb.co/XLSRMf2/feofaniya-kiev-sobor-otrazhenie-prud-101104-1920x1080-min.jpg);
      background-repeat: no-repeat;
   background-attachment: fixed;
     background-position: center top;
@@ -119,6 +119,9 @@ body {
 }
 
 @media screen and (max-width:1000px) {
+    .nav {
+        height: 65px;
+    }
     .navTrigger {
         display: block;
     }
@@ -131,7 +134,7 @@ body {
         overflow: hidden;
     }
     .nav div.show_list {
-        height: 150px;
+        height: 450px;
         width: 300px;
         display: none;
         padding-bottom: 20px;

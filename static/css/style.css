@@ -18,7 +18,7 @@
 
 .mal {
 
-  background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://s1.1zoom.ru/big0/16/380077-svetik.jpg);
+  background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://i.ibb.co/xm8HPhb/380077-svetik-min.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -40,7 +40,7 @@
   width: 70% !important;
   font-size: 170%;
 }
- @media screen and (max-width: 812px) {
+ @media screen and (max-width: 1000px) {
   .mal p{
     right: 50px;
   }
