@@ -16,6 +16,35 @@
 	margin-top: 50px;
 }
 
+.mal {
+
+  background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://s1.1zoom.ru/big0/16/380077-svetik.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+
+  height: 1000px;
+}
+
+
+.mal img{
+  height: 400px;
+
+}
+
+.mal p{
+  color: white;
+  right: 200px;
+  width: 70% !important;
+  font-size: 170%;
+}
+ @media screen and (max-width: 812px) {
+  .mal p{
+    right: 50px;
+  }
+ }
 
 
 .main-text {
