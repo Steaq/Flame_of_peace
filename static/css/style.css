@@ -35,8 +35,74 @@
 
 }
 
+
+.mol {
+  width: 100%;
+    height: 150vh;
+    display: block;
+    
+    
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://storage1.censor.net/images/4/b/1/7/4b17458438b0b3cf5e75188079c7e77c/original.jpg);
+    
+  background-repeat: no-repeat;
+    background-position: center top;
+  background-size:cover;
+}
+
+.mel {
+
+  width: 100%;
+    height: 150vh;
+    display: block;
+    
+    
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://i.pinimg.com/originals/2e/48/ce/2e48ce63e386ab9a056115d5b5c46ed1.jpg);
+    
+  background-repeat: no-repeat;
+    background-position: center top;
+  background-size:cover;
+}
+
+.mol img{
+width: 200px;
+}
+
+.mol h1{
+color:white;
+  font-size: 40px !important;
+}
+
+.mol p{
+ color: white;
+  right: 200px;
+  width: 70% !important;
+  font-size: 170%;
+}
+
+
+ .mel img {
+  width: 200px;
+}
+
+.mel h1 {
+  color:white;
+  font-size: 40px !important;
+}
+
+.mel p {
+  color: white;
+  right: 0px;
+  width: 70% !important;
+  font-size: 170%;
+}
+
 .mil img {
-width: 300px;
+width: 200px;
+}
+
+.mil h1 {
+  color:white;
+  font-size: 40px !important;
 }
 
 .mil p {
@@ -68,7 +134,7 @@ width: 300px;
 }
 
 .mal2 img {
-  width: 1400px;
+  width: 500px;
 }
 
 .mal, .mal2 p{
@@ -76,6 +142,19 @@ width: 300px;
   right: 200px;
   width: 70% !important;
   font-size: 170%;
+}
+
+
+.france {
+  margin-top: 300px;
+}
+
+.proj img {
+   margin-bottom: -700px;
+  width: 750px;
+  height: 200px;
+  margin-left:100px;
+
 }
  @media screen and (max-width: 1000px) {
   .mal p{
@@ -87,6 +166,80 @@ width: 300px;
  @media screen and (max-width: 1000px) {
   .mil p{
     right: 50px;
+  }
+ }
+
+ @media screen and (max-width: 1000px) {
+  .mal2 img{
+    margin-left:-5px !important;
+    margin-bottom: -1300px !important;
+  }
+ }
+
+
+ @media screen and (max-width: 1000px) {
+  .sandor p{
+    margin-right:-160px !important;
+    
+  }
+ }
+
+@media screen and (max-width: 1000px) {
+  .mol {
+    height: 2000px;
+    
+  }
+ }
+
+
+@media screen and (max-width: 1000px) {
+  .prod img{
+    margin-left:-5px !important;
+    margin-bottom: -500px !important;
+  }
+ }
+
+ @media screen and (max-width: 1000px) {
+  .saske img{
+    margin-left:-5px !important;
+    margin-bottom: -830px !important;
+  }
+ }
+
+ @media screen and (max-width: 1000px) {
+  .ssaske img{
+    margin-left:-5px !important;
+    margin-bottom: -330px !important;
+  }
+ }
+
+  @media screen and (max-width: 1000px) {
+  .maske img{
+    margin-left:-5px !important;
+    margin-bottom: -670px !important;
+  }
+ }
+
+ @media screen and (max-width: 1000px) {
+  .home-image img{
+    width: 400px;
+    margin-left:-100px !important;
+    margin-bottom: 1px !important;
+  }
+ }
+
+ @media screen and (max-width: 1000px) {
+  .proj h3{
+    margin-left:-35px !important;
+    margin-bottom: -100px !important;
+    width: 300px;
+  }
+ }
+
+ @media screen and (max-width: 1000px) {
+  .proj h2{
+    
+    margin-top: 300px !important;
   }
  }
 
@@ -346,6 +499,37 @@ width: 30%
   opacity: 0.6;
   -webkit-transform: rotateX(7deg) translateY(-6px) scale(1.05);
           transform: rotateX(7deg) translateY(-6px) scale(1.05);
+}
+
+
+.home-image h5 {
+  font-family: Snell Roundhand, cursive;
+  color: #b77f15  ;
+  font-size: 50px !important;
+}
+
+.home-pimage h5 {
+  font-family: Snell Roundhand, cursive;
+  color: #b77f15  ;
+  font-size: 50px !important;
+}
+
+.home-piimage h5 {
+  font-family: Snell Roundhand, cursive;
+  color: #b77f15  ;
+  font-size: 50px !important;
+}
+
+
+.home-image img {
+  margin-top: 100px;
+}
+
+
+.logo, .navlinks a {
+  font-family: Snell Roundhand, cursive;
+  
+  font-size: 40px !important;
 }
 
 
