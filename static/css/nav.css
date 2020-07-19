@@ -37,7 +37,7 @@ body {
 }
 
 .nav div.logo a:hover {
-    color: #00E676;
+    color: silver;
 }
 
 .nav div.main_list {
@@ -72,7 +72,7 @@ body {
 }
 
 .nav div.main_list ul li a:hover {
-    color: #00E676;
+    color: silver;
 }
 
 
@@ -115,6 +115,25 @@ body {
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .container {
         margin: 0;
+    }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+.nav {
+        
+
+    }
+
+        .nav div.main_list ul li a {
+        color: #fff
+        ;
+        text-align: center;
+        width: 100%;
+        font-size: 2.2rem !important;
+        padding: 1                                  0px;
+
     }
 }
 

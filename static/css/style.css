@@ -156,6 +156,18 @@ width: 200px;
   margin-left:100px;
 
 }
+
+.proj h3 {
+   font-family: Snell Roundhand, cursive;
+   font-size: 35px;
+
+}
+
+.prod h2 {
+   font-family: Snell Roundhand, cursive;
+font-size: 45px;
+}
+
  @media screen and (max-width: 1000px) {
   .mal p{
     right: 50px;
@@ -290,6 +302,26 @@ width: 30%
     	margin-top: 5%;
 
     }
+
+    .nav div.logo2 {
+    float: right;
+    width: auto;
+    height: auto;
+    padding-left: 3rem;
+}
+
+.nav div.logo2 a {
+    text-decoration: none;
+    color: gold;
+    font-size: 2.5rem;
+    font-family: Snell Roundhand, cursive;
+    margin-left: 20px;
+}
+
+.nav div.logo2 a:hover {
+    color: yellow;
+}
+
 
 
 
